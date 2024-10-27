@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> hab-assignment five</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
+
+
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white shadow-lg rounded-lg p-6 w-full max-w-md">
+      <h1 class="text-2xl font-bold text-center mb-4">To-Do List</h1>
+      <div class="flex mb-4">
+        <input id="todo-input" type="text" placeholder="Add a new task..."
+               class="flex-1 border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <button onclick="addTask()"
+                class="ml-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Add</button>
+      </div>
+      <ul id="todo-list" class="space-y-2"></ul>
+    </div>
+  </div>
+<script src="index.js"></script>
 <body>
-    
-</body>
-</html> 
+
